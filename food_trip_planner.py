@@ -16,7 +16,7 @@ TASK_UUID = uuid.uuid4()
 from julep import Client
 import os
 
-JULEP_API_KEY = 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0ZjZiNzQyNy0xMGZmLTU0MWItOWNkNy03ZjU2NDRkOGI4MDkiLCJlbWFpbCI6InJhanNpbmdodG9tYXIxNDE1QGdtYWlsLmNvbSIsImlhdCI6MTc1MTgwMjg3NSwiZXhwIjoxNzUyNDA3Njc1fQ.GijYAy7pOhzg7nN04_k8RCvZCvJTvYobstAxEJUU00Fhi9KY9b5lIMiKb8_cSd5B6YuJmtS7Yuwyb3LAFeAt-g'
+JULEP_API_KEY = 'JULEP_API_KEY'
 
 # Create a Julep client
 client = Client(api_key=JULEP_API_KEY, environment="production")
