@@ -38,8 +38,8 @@ print("✅ Agent created with ID:", agent.id)
 
 import yaml
 
-brave_api_key ="BSAHqAeGuLB5qy72PNalMhaaw6fWxjP"
-openweathermap_api_key = "5b4f46cde2122ee89da8e61376008288"
+brave_api_key ="BRAVE_API_KEY"
+openweathermap_api_key = "OPENWEATHERMAP_API_KEY"
 task_def = yaml.safe_load(f"""
 # yaml-language-server: $schema=https://raw.githubusercontent.com/julep-ai/julep/refs/heads/dev/schemas/create_task_request.json
 name: City Foodie Tour Planner
